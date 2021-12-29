@@ -3,7 +3,7 @@ import pytest
 
 
 # Load the data
-df = pd.read_csv("titanic_data.csv")
+df = pd.read_csv("tested.csv")
 
 # Test to check the column names and their sequence are same as expected
 def test_NoColumns():
